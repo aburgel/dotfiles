@@ -1,0 +1,22 @@
+source /usr/local/share/antigen/antigen.zsh
+
+if [ "$OSTYPE"="darwin16.0" ]; then
+  antigen bundle osx
+fi
+
+antigen use oh-my-zsh
+
+antigen bundle git
+antigen bundle git-extras
+antigen bundle brew
+antigen bundle history
+antigen bundle common-aliases
+
+antigen bundle autojump
+antigen bundle ruby
+antigen bundle github
+antigen bundle grunt
+
+antigen theme candy
+
+antigen apply
