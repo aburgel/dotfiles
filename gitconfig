@@ -11,7 +11,7 @@
   pf = push --force-with-lease
   st = status
 [core]
-  excludesfile = /opt/boxen/config/git/gitignore
+  excludesfile = /Users/aburgel/.gitignore_global
   autocrlf = input
 [merge]
   ff = only
@@ -24,8 +24,6 @@
   email = aburgel@betterment.com
 [github]
   user = aburgel
-[credential]
-  helper = /opt/boxen/bin/boxen-git-credential
 [hub]
   protocol = https
 [url "git@github.com:"]
