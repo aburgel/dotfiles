@@ -9,3 +9,9 @@ fi
 vim -u "$HOME"/.vimrc.bundles +PlugInstall +PlugClean! +qa
 
 reset -Q
+
+if [ -e "$HOME/Library/Application Support/Sublime Text 3/Packages/User" ]; then
+  echo "Sublime Text 3 User config already exists"
+else
+  /bin/ln -shf "$HOME/.sublime" "$HOME/Library/Application Support/Sublime Text 3/Packages/User"
+fi

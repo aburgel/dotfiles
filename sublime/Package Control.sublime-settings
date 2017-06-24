@@ -1,0 +1,25 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"AdvancedNewFile",
+		"All Autocomplete",
+		"Ansible",
+		"ApplySyntax",
+		"BracketHighlighter",
+		"Color Highlighter",
+		"EditorConfig",
+		"GitGutter",
+		"nginx",
+		"Package Control",
+		"PHP-Twig",
+		"Predawn",
+		"Pretty JSON",
+		"Theme - SoDaReloaded",
+		"Theme - Spacegray",
+		"Tomorrow Color Schemes"
+	]
+}

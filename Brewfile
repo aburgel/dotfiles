@@ -8,6 +8,7 @@ brew 'hub'
 brew 'r'
 brew 'antigen'
 brew 'rcm'
+brew 'heroku'
 
 tap 'caskroom/cask'
 cask_args appdir: '/Applications'

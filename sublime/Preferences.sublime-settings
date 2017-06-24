@@ -1,0 +1,33 @@
+{
+	"auto_complete": false,
+	"caret_style": "solid",
+	"color_scheme": "Packages/Theme - Spacegray/base16-eighties.dark.tmTheme",
+	"ensure_newline_at_eof_on_save": true,
+	"find_selected_text": true,
+	"folder_exclude_patterns":
+	[
+		"node_modules",
+		"bower_components",
+		".git",
+		".gradle",
+		"source_maps"
+	],
+	"font_size": 12,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"line_padding_bottom": 0,
+	"line_padding_top": 0,
+	"open_files_in_new_window": false,
+	"scroll_past_end": false,
+	"show_full_path": true,
+	"show_minimap": false,
+	"tab_size": 2,
+	"theme": "Spacegray.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true,
+	"wide_caret": true
+}
