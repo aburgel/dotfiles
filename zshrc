@@ -45,4 +45,4 @@ _load_settings "$HOME/.zsh/configs"
 export EDITOR=/usr/bin/vim
 export VISUAL=/usr/bin/vim
 
-source "$HOME/.bootstrap/env.sh"
+[[ -f "$HOME/.bootstrap/env.sh" ]] && source "$HOME/.bootstrap/env.sh"
