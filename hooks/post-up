@@ -10,11 +10,13 @@ vim -u "$HOME"/.vimrc.bundles +PlugInstall +PlugClean! +qa
 
 reset -Q
 
-SUBLIME_PREFS_PATH="$HOME/Library/Application Support/Sublime Text 3/Packages/User/"
+SUBLIME_CONFIG_PATH="$HOME/Library/Application Support/Sublime Text 3/Packages"
+SUBLIME_PKG_CTRL_FILE="$SUBLIME_CONFIG_PATH/Installed Packages/Package Control.sublime-package"
 
-if [ -e "$SUBLIME_PREFS_PATH/Preferences.sublime-settings" ]; then
-  echo "Sublime Text 3 User config already exists"
-else
-  mkdir -p "$SUBLIME_PREFS_PATH"
-  /bin/ln -shf "$HOME/.sublime" "$SUBLIME_PREFS_PATH"
+mkdir -p "$SUBLIME_CONFIG_PATH"
+/bin/ln -shf "$HOME/.sublime" "$SUBLIME_CONFIG_PATH/User"
+
+mkdir -p "$SUBLIME_CONFIG_PATH/Installed Packages/"
+if [ ! -f "$SUBLIME_PKG_CTRL_FILE" ]; then
+  curl -o "$SUBLIME_PKG_CTRL_FILE" "https://sublime.wbond.net/Package Control.sublime-package"
 fi
