@@ -46,3 +46,7 @@ export EDITOR=/usr/bin/vim
 export VISUAL=/usr/bin/vim
 
 [[ -f "$HOME/.bootstrap/env.sh" ]] && source "$HOME/.bootstrap/env.sh"
+
+export PATH="$HOME/.bin:$PATH"
+
+eval "$(direnv hook zsh)"

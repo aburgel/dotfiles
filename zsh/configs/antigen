@@ -19,6 +19,6 @@ antigen bundle ruby
 antigen bundle github
 antigen bundle grunt
 
-antigen theme af-magic
+antigen theme https://github.com/denysdovhan/spaceship-prompt spaceship
 
 antigen apply
