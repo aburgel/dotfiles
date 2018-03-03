@@ -1,0 +1,16 @@
+{
+    "workbench.iconTheme": "vs-minimal",
+    "gitlens.gitExplorer.enabled": false,
+    "gitlens.codeLens.scopes": [
+        "document"
+    ],
+    "workbench.statusBar.feedback.visible": false,
+    "workbench.startupEditor": "newUntitledFile",
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/bower_components": true,
+        "**/vendor": true
+    }
+}

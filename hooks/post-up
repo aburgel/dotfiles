@@ -20,3 +20,8 @@ mkdir -p "$SUBLIME_CONFIG_PATH/Installed Packages/"
 if [ ! -f "$SUBLIME_PKG_CTRL_FILE" ]; then
   curl -o "$SUBLIME_PKG_CTRL_FILE" "https://sublime.wbond.net/Package Control.sublime-package"
 fi
+
+VSCODE_CONFIG_PATH="$HOME/Library/Application Support/Code/User"
+
+mkdir -p "$VSCODE_CONFIG_PATH"
+/bin/ln -shf "$HOME/.vscode.settings.json" "$VSCODE_CONFIG_PATH/settings.json"
