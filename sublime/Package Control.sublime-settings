@@ -2,6 +2,11 @@
 	"bootstrapped": true,
 	"in_process_packages":
 	[
+		"BracketHighlighter",
+		"GitGutter",
+		"JsPrettier",
+		"Material Theme",
+		"SideBarEnhancements"
 	],
 	"installed_packages":
 	[
