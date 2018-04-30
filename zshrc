@@ -43,7 +43,8 @@ _load_settings "$HOME/.zsh/configs"
 [[ -f ~/.aliases ]] && source ~/.aliases
 
 export EDITOR=/usr/bin/vim
-export VISUAL=/usr/bin/vim
+export GIT_EDITOR="$EDITOR"
+export VISUAL=/usr/local/bin/code
 
 [[ -f "$HOME/.bootstrap/env.sh" ]] && source "$HOME/.bootstrap/env.sh"
 
