@@ -9,6 +9,7 @@ brew 'r'
 brew 'antigen'
 brew 'rcm'
 brew 'heroku'
+brew 'mas'
 
 tap 'caskroom/cask'
 cask_args appdir: '/Applications'
@@ -22,3 +23,8 @@ cask 'sublime-text'
 cask 'licecap'
 cask 'slack'
 cask 'visual-studio-code'
+cask 'docker'
+cask 'moom'
+
+mas 'Fantastical 2', id: 975937182
+mas 'GIF Brewery 3', id: 1081413713
