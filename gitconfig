@@ -12,6 +12,7 @@
 	st = status
 [core]
 	autocrlf = input
+	hooksPath = /Users/alexburgel/.git-templates/hooks
 [merge]
 	ff = only
 [fetch]
@@ -27,13 +28,22 @@
 	protocol = https
 [url "git@github.com:"]
 	insteadOf = "https://github.com/"
-[difftool "sourcetree"]
-	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
-	path = 
-[mergetool "sourcetree"]
-	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
-	trustExitCode = true
 [rerere]
 	enabled = true
 [mergetool]
 	keepBackup = true
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[difftool "Kaleidoscope"]
+	cmd = ksdiff --partial-changeset --relative-path \"$MERGED\" -- \"$LOCAL\" \"$REMOTE\"
+[mergetool "Kaleidoscope"]
+	cmd = ksdiff --merge --output \"$MERGED\" --base \"$BASE\" -- \"$LOCAL\" \"$REMOTE\"
+[mergetool]
+	prompt = false
+[merge]
+	tool = Kaleidoscope
+[init]
+	templatedir = /Users/alexburgel/.git-templates
