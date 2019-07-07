@@ -10,6 +10,8 @@ vim -u "$HOME"/.vimrc.bundles +PlugInstall +PlugClean! +qa
 
 reset -Q
 
+antibody bundle < ~/.zsh_plugins > ~/.zsh_plugins.sh
+
 SUBLIME_CONFIG_PATH="$HOME/Library/Application Support/Sublime Text 3/Packages"
 SUBLIME_PKG_CTRL_FILE="$SUBLIME_CONFIG_PATH/Installed Packages/Package Control.sublime-package"
 
