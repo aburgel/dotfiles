@@ -12,7 +12,6 @@
 	st = status
 [core]
 	autocrlf = input
-	hooksPath = /Users/alexburgel/.git-templates/hooks
 [merge]
 	ff = only
 [fetch]

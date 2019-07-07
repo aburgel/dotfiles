@@ -4,11 +4,7 @@ alias ln="ln -v"
 alias mkdir="mkdir -p"
 alias e="$EDITOR"
 alias v="$VISUAL"
-alias ..='cd ..'
 alias ls='ls -G'
 
 # Pretty print the path
 alias path='echo $PATH | tr -s ":" "\n"'
-
-alias subl="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
-alias stree="/Applications/SourceTree.app/Contents/Resources/stree"
