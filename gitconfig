@@ -42,5 +42,3 @@
 	prompt = false
 [merge]
 	tool = Kaleidoscope
-[init]
-	templatedir = /Users/alexburgel/.git-templates
