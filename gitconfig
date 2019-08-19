@@ -25,8 +25,6 @@
 	user = aburgel
 [hub]
 	protocol = https
-[url "git@github.com:"]
-	insteadOf = "https://github.com/"
 [rerere]
 	enabled = true
 [mergetool]
