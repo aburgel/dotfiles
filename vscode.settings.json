@@ -13,7 +13,7 @@
         "**/bower_components": true,
         "**/vendor": true
     },
-    "extensions.ignoreRecommendations": false,
+    "extensions.ignoreRecommendations": true,
     "gitlens.keymap": "chorded",
     "gitlens.advanced.messages": {
         "suppressCommitHasNoPreviousCommitWarning": false,
@@ -24,5 +24,17 @@
         "suppressNoRepositoryWarning": false,
         "suppressResultsExplorerNotice": false,
         "suppressShowKeyBindingsNotice": true
-    }
+    },
+    "gitlens.historyExplorer.enabled": true,
+    "search.followSymlinks": false,
+    "window.zoomLevel": 0,
+    "gitlens.views.repositories.enabled": false,
+    "gitlens.views.fileHistory.enabled": true,
+    "gitlens.views.lineHistory.enabled": true,
+    "window.clickThroughInactive": false,
+    "files.exclude": {
+        "**/__pycache__": true,
+        "**/*.pyc": true
+    },
+    "editor.fontFamily": "'Source Code Pro', Menlo, Monaco, 'Courier New', monospace"
 }
