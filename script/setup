@@ -7,15 +7,13 @@ if ! type brew 2>/dev/null ; then
   /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 fi
 
+brew update
+brew bundle --global --file=Brewfile
+
 brew tap thoughtbot/formulae
 brew install rcm
 
 env RCRC=$HOME/src/dotfiles/rcrc rcup
-
-if [ -f "$HOME/.Brewfile" ]; then
-  brew update
-  brew bundle --global
-fi
 
 if ! grep -q "/usr/local/bin/zsh" /etc/shells ; then
   sudo sh -c 'echo /usr/local/bin/zsh >> /etc/shells'
