@@ -5,8 +5,10 @@ tap 'homebrew/services'
 tap 'thoughtbot/formulae'
 brew 'antibody'
 brew 'autojump'
+brew 'direnv'
 brew 'fd'
 brew 'fzf'
+brew 'go'
 brew 'heroku'
 brew 'hub'
 brew 'jq'
@@ -39,3 +41,4 @@ cask 'visual-studio-code'
 
 mas 'Fantastical 2', id: 975937182
 mas 'GIF Brewery 3', id: 1081413713
+mas 'Reeder 4', id: 1449412482
