@@ -48,6 +48,6 @@ export VISUAL=/usr/local/bin/code
 
 [[ -f "$HOME/.bootstrap/env.sh" ]] && source "$HOME/.bootstrap/env.sh"
 
-export PATH="$HOME/bin:$(brew --prefix)/bin:$PATH"
+export PATH="$HOME/bin:$PATH"
 
 eval "$(direnv hook zsh)"
