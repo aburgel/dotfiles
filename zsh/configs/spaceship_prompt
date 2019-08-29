@@ -1,3 +1,4 @@
+SPACESHIP_CHAR_PREFIX="%{$(iterm2_prompt_mark)%}"
 SPACESHIP_PROMPT_ORDER=(
 #  time          # Time stamps section
 #  user          # Username section
