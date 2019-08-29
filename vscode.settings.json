@@ -5,9 +5,11 @@
         "document"
     ],
     "workbench.statusBar.feedback.visible": false,
+    "workbench.editor.highlightModifiedTabs": true,
     "workbench.startupEditor": "newUntitledFile",
     "files.insertFinalNewline": true,
     "files.trimTrailingWhitespace": true,
+    "files.trimFinalNewlines": true,
     "search.exclude": {
         "**/node_modules": true,
         "**/bower_components": true,
@@ -36,5 +38,14 @@
         "**/__pycache__": true,
         "**/*.pyc": true
     },
-    "editor.fontFamily": "'Source Code Pro', Menlo, Monaco, 'Courier New', monospace"
+    "editor.fontFamily": "Fira Code, Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    "editor.acceptSuggestionOnEnter": "off",
+    "gitlens.views.repositories.location": "scm",
+    "gitlens.views.fileHistory.location": "scm",
+    "gitlens.views.lineHistory.location": "scm",
+    "gitlens.views.compare.location": "scm",
+    "gitlens.views.search.location": "scm",
+    "editor.cursorStyle": "block",
+    "editor.cursorBlinking": "solid"
 }
