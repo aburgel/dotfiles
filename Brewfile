@@ -16,6 +16,7 @@ brew 'mas'
 brew 'r'
 brew 'rcm'
 brew 'terminal-notifier'
+brew 'wget'
 brew 'zsh'
 
 tap 'caskroom/cask'
@@ -26,7 +27,9 @@ cask 'datagrip'
 cask 'docker'
 cask 'evernote'
 cask 'font-fira-mono-for-powerline'
+cash 'font-fira-code'
 cask 'google-chrome'
+cask 'kaleidoscope'
 cask 'iterm2'
 cask 'licecap'
 cask 'moom'
@@ -42,3 +45,4 @@ cask 'visual-studio-code'
 mas 'Fantastical 2', id: 975937182
 mas 'GIF Brewery 3', id: 1081413713
 mas 'Reeder 4', id: 1449412482
+mas 'Yoink', id: 457622435
