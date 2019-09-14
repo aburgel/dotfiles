@@ -42,7 +42,9 @@ cask 'sublime-text'
 cask 'tower'
 cask 'visual-studio-code'
 
+mas 'Bear', id: 1091189122
 mas 'Fantastical 2', id: 975937182
 mas 'GIF Brewery 3', id: 1081413713
 mas 'Reeder 4', id: 1449412482
+mas 'Things 3', id: 904280696
 mas 'Yoink', id: 457622435
