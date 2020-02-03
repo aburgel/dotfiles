@@ -48,5 +48,9 @@
     "gitlens.views.search.location": "scm",
     "editor.cursorStyle": "block",
     "editor.cursorBlinking": "solid",
-    "editor.renderWhitespace": "all"
+    "editor.renderWhitespace": "all",
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.multiCursorModifier": "ctrlCmd"
 }

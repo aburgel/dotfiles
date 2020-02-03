@@ -44,3 +44,5 @@
 	tool = Kaleidoscope
 [credential]
 	helper = osxkeychain
+[diff]
+	colorMoved = zebra
