@@ -1,0 +1,1 @@
+export HOMEBREW_BUNDLE_BREW_SKIP="kubernetes-cli"

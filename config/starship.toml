@@ -1,29 +1,17 @@
-prompt_order = [
-    "username",
-    "hostname",
-    "kubernetes",
-    "directory",
-    "git_branch",
-    "git_state",
-    "git_status",
-    "package",
-    "nodejs",
-    "ruby",
-    "python",
-    "golang",
-    "nix_shell",
-    "aws",
-    "cmd_duration",
-    "line_break",
-    "jobs",
-    "battery",
-    "time",
-    "character",
-]
+format = """\
+    $directory\
+    $git_branch\
+    $aws\
+    $cmd_duration\
+    $battery\
+    $time\
+    $line_break\
+    $character\
+  """
 
 [character]
-symbol = "%{$(iterm2_prompt_mark)%}➜"
-error_symbol = "%{$(iterm2_prompt_mark)%}✖"
+success_symbol = "➜"
+error_symbol = "✖"
 
 [python]
 pyenv_version_name = true

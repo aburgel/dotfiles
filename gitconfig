@@ -46,3 +46,7 @@
 	helper = osxkeychain
 [diff]
 	colorMoved = zebra
+[init]
+	templatedir = ~/.git-templates
+[pull]
+	ff = only
