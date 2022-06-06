@@ -52,6 +52,4 @@ export PATH="$HOME/bin:$PATH"
 
 eval "$(direnv hook zsh)"
 
-export PATH="$HOME/.poetry/bin:$PATH"
-export FLUTTER_HOME="$HOME/flutter"
-export PATH="$FLUTTER_HOME/bin:$PATH"
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh

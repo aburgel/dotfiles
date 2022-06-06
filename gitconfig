@@ -20,7 +20,7 @@
 	autosquash = true
 [user]
 	name = Alex Burgel
-	email = aburgel@betterment.com
+	email = aburgel@gmail.com
 [github]
 	user = aburgel
 [hub]
@@ -48,5 +48,6 @@
 	colorMoved = zebra
 [init]
 	templatedir = ~/.git-templates
+	defaultBranch = main
 [pull]
 	ff = only

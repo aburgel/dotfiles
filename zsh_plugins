@@ -13,7 +13,7 @@ robbyrussell/oh-my-zsh path:plugins/git
 robbyrussell/oh-my-zsh path:plugins/git-extras
 robbyrussell/oh-my-zsh path:plugins/github
 robbyrussell/oh-my-zsh path:plugins/history
-robbyrussell/oh-my-zsh path:plugins/osx
+robbyrussell/oh-my-zsh path:plugins/macos
 robbyrussell/oh-my-zsh path:plugins/ruby
 robbyrussell/oh-my-zsh path:plugins/web-search
 zdharma/fast-syntax-highlighting
