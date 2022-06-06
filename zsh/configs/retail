@@ -1,2 +1,0 @@
-alias prepare="rake app:retail:test:prepare app:bettermentdb:test:prepare"
-alias reset-db="kill_conn retail_development && rake db:drop db:reset db:migrate"
