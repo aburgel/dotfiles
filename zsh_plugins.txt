@@ -1,0 +1,6 @@
+b4b4r07/emoji-cli
+MichaelAquilina/zsh-you-should-use
+robbyrussell/oh-my-zsh
+robbyrussell/oh-my-zsh path:plugins/autojump
+robbyrussell/oh-my-zsh path:plugins/common-aliases
+robbyrussell/oh-my-zsh path:plugins/git

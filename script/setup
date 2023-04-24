@@ -12,9 +12,6 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 brew update
 brew bundle --global --file=./Brewfile
 
-brew tap thoughtbot/formulae
-brew install rcm
-
 env RCRC=$HOME/src/dotfiles/rcrc rcup
 
 if ! grep -q "/opt/homebrew/bin/zsh" /etc/shells ; then

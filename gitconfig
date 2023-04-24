@@ -47,7 +47,6 @@
 [diff]
 	colorMoved = zebra
 [init]
-	templatedir = ~/.git-templates
 	defaultBranch = main
 [pull]
 	ff = only

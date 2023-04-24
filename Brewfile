@@ -1,9 +1,8 @@
-tap 'getantibody/tap'
 tap 'heroku/brew'
 tap 'homebrew/core'
 tap 'homebrew/services'
 tap 'thoughtbot/formulae'
-brew 'antibody'
+brew 'antidote'
 brew 'autojump'
 brew 'awscli'
 brew 'bat'
@@ -18,10 +17,8 @@ brew 'hexedit'
 brew 'hub'
 brew 'jq'
 brew 'mas'
-brew 'r'
 brew 'rbenv'
 brew 'rcm'
-brew 'starship'
 brew 'terminal-notifier'
 brew 'tfenv'
 brew 'tldr'
@@ -42,7 +39,5 @@ cask 'warp'
 
 mas 'Bear', id: 1091189122
 mas 'Fantastical 2', id: 975937182
-mas 'GIF Brewery 3', id: 1081413713
-mas 'Reeder 4', id: 1449412482
 mas 'Things 3', id: 904280696
 mas 'Yoink', id: 457622435
