@@ -10,9 +10,9 @@ fi
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
 brew update
-brew bundle --global --file=./Brewfile
+brew bundle
 
-env RCRC=$HOME/src/dotfiles/rcrc rcup
+RCRC=$HOME/src/dotfiles/rcrc rcup
 
 if ! grep -q "/opt/homebrew/bin/zsh" /etc/shells ; then
   echo "Adding zsh to list of allowed shells"
