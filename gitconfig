@@ -1,7 +1,11 @@
 [push]
 	default = simple
+[pull]
+	ff = only
+
 [color]
 	ui = auto
+
 [alias]
 	aa = add --all
 	ap = add --patch
@@ -18,13 +22,6 @@
 	prune = true
 [rebase]
 	autosquash = true
-[user]
-	name = Alex Burgel
-	email = aburgel@gmail.com
-[github]
-	user = aburgel
-[hub]
-	protocol = https
 [rerere]
 	enabled = true
 [mergetool]
@@ -37,7 +34,8 @@
 [difftool "Kaleidoscope"]
 	cmd = ksdiff --partial-changeset --relative-path \"$MERGED\" -- \"$LOCAL\" \"$REMOTE\"
 [mergetool "Kaleidoscope"]
-	cmd = ksdiff --merge --output \"$MERGED\" --base \"$BASE\" -- \"$LOCAL\" \"$REMOTE\"
+	cmd = ksdiff --merge --output \"$MERGED\" --base \"$BASE\" -- \"$LOCAL\" --snapshot \"$REMOTE\" --snapshot
+	trustExitCode = true
 [mergetool]
 	prompt = false
 [merge]
@@ -48,5 +46,18 @@
 	colorMoved = zebra
 [init]
 	defaultBranch = main
-[pull]
-	ff = only
+[user]
+	name = Alex Burgel
+	email = aburgel@gmail.com
+	signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIFeBUsA3VEVA8GUoVKzobGvaarCpIEP14/0v1pc3qwLJ
+[gpg]
+	format = ssh
+	program = /opt/homebrew/bin/gpg
+[commit]
+	gpgsign = true
+[github]
+	user = aburgel
+[hub]
+	protocol = https
+[gpg "ssh"]
+	program = /Applications/1Password.app/Contents/MacOS/op-ssh-sign
