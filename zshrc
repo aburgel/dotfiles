@@ -44,7 +44,7 @@ _load_settings "$HOME/.zsh/configs"
 
 export EDITOR=/usr/bin/vim
 export GIT_EDITOR="$EDITOR"
-export VISUAL=/usr/local/bin/code
+export VISUAL="/opt/homebrew/bin/code --wait"
 
 export PATH="$HOME/bin:$PATH"
 
