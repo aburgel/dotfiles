@@ -24,10 +24,6 @@
   },
   "search.followSymlinks": false,
   "window.clickThroughInactive": false,
-  "files.exclude": {
-    "**/__pycache__": true,
-    "**/*.pyc": true
-  },
   "editor.fontFamily": "FiraCode-Retina, Fira Code, Menlo, Monaco, 'Courier New', monospace",
   "editor.fontLigatures": true,
   "editor.acceptSuggestionOnEnter": "off",
@@ -37,15 +33,6 @@
   "editor.semanticHighlighting.enabled": true,
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "terraform.indexing": {
-    "enabled": false,
-    "liveIndexing": false,
-    "delay": 500,
-    "exclude": [".terraform/**/*", "**/.terraform/**/*"]
-  },
-  "terraform.languageServer": {
-    "external": true
   },
   "editor.formatOnSave": true,
   "[typescriptreact]": {
@@ -68,11 +55,10 @@
     "editor.formatOnType": true,
     "editor.defaultFormatter": "charliermarsh.ruff"
   },
+  "[ruby]": {
+    "editor.defaultFormatter": "rubocop.vscode-rubocop"
+  },
   "python.testing.autoTestDiscoverOnSaveEnabled": false,
-  "omnisharp.analyzeOpenDocumentsOnly": true,
-  "omnisharp.enableImportCompletion": true,
-  "omnisharp.enableRoslynAnalyzers": true,
-  "lldb.library": "/Applications/Xcode.app/Contents/SharedFrameworks/LLDB.framework/Versions/A/LLDB",
   "githubPullRequests.pullBranch": "never",
   "terraform.codelens.referenceCount": true,
   "python.analysis.autoImportCompletions": true,
@@ -93,10 +79,15 @@
     "completion": true,
     "codeLens": false
   },
-  "rubyLsp.rubyVersionManager": "asdf",
+  "rubyLsp.rubyVersionManager": {
+    "identifier": "asdf"
+  },
   "rubyLsp.enableExperimentalFeatures": true,
-  "prettier.singleQuote": true,
-  "yaml.format.singleQuote": true,
   "git.openRepositoryInParentFolders": "never",
-  "security.promptForLocalFileProtocolHandling": false
+  "security.promptForLocalFileProtocolHandling": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "always"
+  },
+  "search.quickOpen.history.filterSortOrder": "recency",
+  "editor.inlineSuggest.suppressSuggestions": true
 }
